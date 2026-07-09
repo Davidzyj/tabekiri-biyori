@@ -18,9 +18,10 @@
 
 ## Phase 4 — Web and App Store
 
-- Status: In progress
+- Status: Complete
 - Created trilingual privacy/support website, Pages workflow, and localized App Store metadata.
-- GitHub repository and live Pages deployment are pending the repository push.
+- Created and pushed `https://github.com/Davidzyj/tabekiri-biyori`.
+- GitHub reported the Pages deployment as successful at `https://davidzyj.github.io/tabekiri-biyori/`.
 
 ## Phase 5 — Verification and handoff
 

@@ -8,6 +8,8 @@
 - Widget ID: `com.zhouyajie.tabekiribiyori.widget`
 - App Group: `group.com.zhouyajie.tabekiribiyori`
 - Deployment: iOS 17+, iPhone only, portrait, forced light appearance
+- Repository: `https://github.com/Davidzyj/tabekiri-biyori`
+- Pages: `https://davidzyj.github.io/tabekiri-biyori/`
 
 ## Architecture
 
@@ -50,4 +52,3 @@ See `docs/product.md`. Add, edit, finish, discard, delete, reminder, language, a
 - OCR recognizes common `YYYY/MM/DD` and `YY/MM/DD` printed formats. The user always confirms.
 - Photos are stored locally in SwiftData external storage.
 - Widget sharing requires the App Group entitlement to be created in the owner’s developer account.
-
