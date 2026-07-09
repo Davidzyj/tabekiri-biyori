@@ -27,6 +27,7 @@
 
 - Status: Complete
 - `plutil` validation and target build-setting verification passed.
+- Added valid App and Widget privacy manifests with approved UserDefaults reasons.
 - Simulator build passed.
 - Two unit tests and one end-to-end UI test passed.
 - Real simulator visual QA found and fixed launch letterboxing and bottom-tab spacing.

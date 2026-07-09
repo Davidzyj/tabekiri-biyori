@@ -32,6 +32,7 @@ See `docs/product.md`. Add, edit, finish, discard, delete, reminder, language, a
 - Raw support email, URLs, and bundle IDs are not displayed in Settings.
 - Web links are user initiated; the app makes no proactive network requests.
 - `ITSAppUsesNonExemptEncryption = false` exists in app and widget plists.
+- App and Widget include privacy manifests for their direct `UserDefaults` and App Group `UserDefaults` usage.
 
 ## Owner setup still required
 

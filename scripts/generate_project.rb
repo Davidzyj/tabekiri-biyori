@@ -47,6 +47,10 @@ end
 
 assets = main_group.new_file("Assets.xcassets")
 app.resources_build_phase.add_file_reference(assets)
+app_privacy = main_group.new_file("PrivacyInfo.xcprivacy")
+app.resources_build_phase.add_file_reference(app_privacy)
+widget_privacy = widget_group.new_file("PrivacyInfo.xcprivacy")
+widget.resources_build_phase.add_file_reference(widget_privacy)
 
 ["Localizable.strings", "InfoPlist.strings"].each do |filename|
   variant = main_group.new_variant_group(filename)

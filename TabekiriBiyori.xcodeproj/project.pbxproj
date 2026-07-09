@@ -7,69 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		060439E2D2C38D1B145231E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E685992DA950F5EEBFDED1 /* Foundation.framework */; };
-		1503723ED9489E912A73C4B8 /* Widget.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BD765CEA2EBDEE28AB074C1 /* Widget.strings */; };
-		1645420D814DA4A5104C292F /* TabekiriBiyoriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB72F5D4F18125ED68E278C /* TabekiriBiyoriUITests.swift */; };
-		2119E8648948CD06D1DD2B7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8FE3FF7E1BE71F6EE1C5816 /* InfoPlist.strings */; };
-		292A6E9BA6BA3339B1976FB8 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08427D23D48DDE6F9C1DA2B7 /* FoodItem.swift */; };
-		2A75842AA41E90245182B229 /* ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8C55F7DCD60C7D92AB70F /* ReminderService.swift */; };
-		2D0BAB7072552EA6A06A25DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E685992DA950F5EEBFDED1 /* Foundation.framework */; };
-		3514F54357AF285F4C6A2B49 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 514DEC3870B9BED82F893277 /* Localizable.strings */; };
-		3AB38A2460014CE3FFD752D1 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC75F656BF2967194F99EA1 /* FoodItem.swift */; };
-		4E272B6D96C9B93A55029CC5 /* FoodItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B3C2382A73B95E0DFA69CA /* FoodItemTests.swift */; };
-		558BF9AA9A26161467C9F049 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1F1456EE782EAD854822B1 /* AppTheme.swift */; };
-		5CF8305E615A5E11BED2586E /* FoodEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88DF0319B127920172D72E2 /* FoodEditorView.swift */; };
-		67CFFED30299FB2B8A07D1A3 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FF89434EB477F6BF3CCEFA /* AppLanguage.swift */; };
-		6E2F19A0D2E048140FCA5150 /* TabekiriBiyoriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A578FECE69B163591A1358 /* TabekiriBiyoriApp.swift */; };
-		7A7F38177890F5A41DE85BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E685992DA950F5EEBFDED1 /* Foundation.framework */; };
-		87BF895E129892A4E2C4AE88 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8177E3E91525876F193B6E /* HomeView.swift */; };
-		89786DDC9CDB244398E792BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8ED24B656BAACFEE7901299 /* Assets.xcassets */; };
-		9521FD44297A6E5E4212D209 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AE9C75BAB51DB50E09BA30 /* HistoryView.swift */; };
-		9E26FB70C3AD0DB1F26187CB /* WidgetSnapshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF5B1E1586CDD09117E12F /* WidgetSnapshotService.swift */; };
-		AA64B2BEEBDFCD0A953928C2 /* TabekiriWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BC8335BAFC131B63F85D2 /* TabekiriWidget.swift */; };
-		B883AB1D2A3CB5978AE34A20 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F96E0F2D800CAD0DD2ACABD /* CameraPicker.swift */; };
-		BE628490E1C9952D5FED7C63 /* WidgetSnapshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6568AB2FEBFC0A0AFF5E0608 /* WidgetSnapshotService.swift */; };
-		C4143CB96C970C92E5F36A05 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80C6DFFE72A9904FD26330A /* RootView.swift */; };
-		C6EC3496A5B6C825FA37F8C0 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1B398ADC3D1589BF97800B /* FoodDetailView.swift */; };
-		C804B0B9EB066E80A76A69D4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A1D747C19E560CEED4A90 /* SettingsView.swift */; };
-		D0ED2EAFCD44855FC07543C3 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB97B5220AA07772CEE2A3CD /* AppTheme.swift */; };
-		E0D6BD8CDBA0228B4419DC8C /* DateRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951F3D921331A87B5BCC3FD /* DateRecognitionService.swift */; };
-		E66BB2D6483CBE6015744E7B /* TabekiriWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9A3719547B4AE956C5EE8C2A /* TabekiriWidget.appex */; };
-		FD53004A7BC004EC616BC236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E685992DA950F5EEBFDED1 /* Foundation.framework */; };
+		043CCCAFC701E0B2A3AFBFD9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6A5F0512D903A955F9D8B171 /* PrivacyInfo.xcprivacy */; };
+		08A949C1B8FB99C8187D43CA /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF06C85703C1953C7FAA580 /* CameraPicker.swift */; };
+		097BB9F9783C99C046F00B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA0DE76AA40A9597F5A1C46 /* Foundation.framework */; };
+		18051AA8EBD76111253169C4 /* TabekiriWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E0242989E26F0D6F80B53072 /* TabekiriWidget.appex */; };
+		26E0D4D97D222EC259C95F9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA0DE76AA40A9597F5A1C46 /* Foundation.framework */; };
+		2CE18ED5BF41A6DF9AA759CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82004250ED0160C2194A418F /* HomeView.swift */; };
+		2DE1CE0389B04A25AFDF4595 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075467D82E0C22F47B4080EA /* AppTheme.swift */; };
+		37435FF31D5D16AB6473BA9E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217993447B704DF2C4B2E01D /* HistoryView.swift */; };
+		3B2DA1EFED43C607294C14E2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 758B641AD811B297BA8EEF1E /* PrivacyInfo.xcprivacy */; };
+		3FA60048E8CC5566F14101F5 /* TabekiriBiyoriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA93976FF93982188CCA6A8C /* TabekiriBiyoriApp.swift */; };
+		41A796EFF03EE1D2A42238EC /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082525AA9DB070DE9233F98 /* AppTheme.swift */; };
+		41E79CA87A914738671EDD13 /* FoodEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CEB332628B86D826898EDB /* FoodEditorView.swift */; };
+		45A93332997211347716B795 /* ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB36DC8F39C1A703F3D2EB /* ReminderService.swift */; };
+		4FF68CB865FE1D53E7D7424D /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CE4B567F0E5CF0FD00E803 /* FoodItem.swift */; };
+		54EACECAD3C0634A8DCC038E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA0DE76AA40A9597F5A1C46 /* Foundation.framework */; };
+		59FDEDD26F8A14E7FC4BC059 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C02194C5CC5FFACC31115 /* RootView.swift */; };
+		6AA971EF344B62E4DAD25949 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1FE52FCE62842AA7E065E /* FoodDetailView.swift */; };
+		6B4DE3C48B33E2F01AFA8893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16A8D368C97418506D747F47 /* InfoPlist.strings */; };
+		806D74BE5A937DA6371B971F /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1B49C20031E7A057C584F /* FoodItem.swift */; };
+		A8727BF353D1FDC5CB476DC8 /* DateRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA77D4F2FD09D3CC3330202 /* DateRecognitionService.swift */; };
+		AD296AF815F143BB048987F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA0DE76AA40A9597F5A1C46 /* Foundation.framework */; };
+		AF14AA1F2F68C80499A6470B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66993DF1CDB2478007A4C4DD /* SettingsView.swift */; };
+		B81FA3E3E6BB5028AC3AEA4F /* Widget.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0677585EB110794DE7DA6CF2 /* Widget.strings */; };
+		BA87C98E6CADFCC2A31FEA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027F312CE71263B66AF6A599 /* Assets.xcassets */; };
+		C99FF3DB73D6CEDE514D1179 /* FoodItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13DFB11EFD39B9118E5FF66 /* FoodItemTests.swift */; };
+		C9AA01F26C95B9EAF3DD1376 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B4BC76D7875D8BD02C0C094 /* Localizable.strings */; };
+		C9B79731D45B8835789FD86A /* WidgetSnapshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73B454F402BA4683573C5D /* WidgetSnapshotService.swift */; };
+		CFABCD93797AE29125895ABC /* TabekiriWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA114FBCC7369FB81614436 /* TabekiriWidget.swift */; };
+		D00AF1593AA2886A8FDF1699 /* WidgetSnapshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC5F7B2C23FA189E99A61A /* WidgetSnapshotService.swift */; };
+		E56729B7019808217BA76239 /* TabekiriBiyoriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8D63A4BE9AD0D1241A547C /* TabekiriBiyoriUITests.swift */; };
+		E87D110FBEDE51926C021A55 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9AE0CF500E0D1CA69ECADC /* AppLanguage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A3A0211C810B3E6C9C27CB7 /* PBXContainerItemProxy */ = {
+		2893CD88F1CEAF0321FF6EDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F49A95D45A59DCFDF03510A /* Project object */;
+			containerPortal = FC09C58B731B924D2CC3B184 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA176B4F61A2D3637CE77FFD;
+			remoteGlobalIDString = C1611CB60FB93EDF43F4D3D5;
 			remoteInfo = TabekiriWidget;
 		};
-		5615457C59C4B17A6C213C68 /* PBXContainerItemProxy */ = {
+		358AB8919E6C2971A647D5C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F49A95D45A59DCFDF03510A /* Project object */;
+			containerPortal = FC09C58B731B924D2CC3B184 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C129A4DE94BE2496C65E59CF;
+			remoteGlobalIDString = 68928D180E55929E0566BD07;
 			remoteInfo = TabekiriBiyori;
 		};
-		7B4C389788000154FD708ECC /* PBXContainerItemProxy */ = {
+		6164C9E02E8D3664CA060E2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F49A95D45A59DCFDF03510A /* Project object */;
+			containerPortal = FC09C58B731B924D2CC3B184 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C129A4DE94BE2496C65E59CF;
+			remoteGlobalIDString = 68928D180E55929E0566BD07;
 			remoteInfo = TabekiriBiyori;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		36AD3B92653814D5D975AFC5 /* Embed App Extensions */ = {
+		66C590184FC3063828B375DE /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				E66BB2D6483CBE6015744E7B /* TabekiriWidget.appex in Embed App Extensions */,
+				18051AA8EBD76111253169C4 /* TabekiriWidget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,220 +79,243 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		05A578FECE69B163591A1358 /* TabekiriBiyoriApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabekiriBiyoriApp.swift; path = App/TabekiriBiyoriApp.swift; sourceTree = "<group>"; };
-		083BC8335BAFC131B63F85D2 /* TabekiriWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabekiriWidget.swift; sourceTree = "<group>"; };
-		08427D23D48DDE6F9C1DA2B7 /* FoodItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoodItem.swift; path = Models/FoodItem.swift; sourceTree = "<group>"; };
-		0EB72F5D4F18125ED68E278C /* TabekiriBiyoriUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabekiriBiyoriUITests.swift; sourceTree = "<group>"; };
-		15C8B10392B60E1DD1D2B4B8 /* zh-Hans */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		1C1A1D747C19E560CEED4A90 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
-		24B07B6DC8EF48B7E7E04B96 /* ja */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2898EC4136DA10639337BEDC /* TabekiriBiyoriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabekiriBiyoriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		290ED3A6A865897C63608ACE /* zh-Hans */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		31E768A063B40A1295D8C496 /* zh-Hans */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Widget.strings"; sourceTree = "<group>"; };
-		4FD01F9BEE34A3289F79DFA5 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Widget.strings; sourceTree = "<group>"; };
-		5F82114B12AD877BF3EF9066 /* TabekiriBiyori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabekiriBiyori.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F8406849D394F3F62C3F543 /* ja */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6305EEC9A07465891CCE5E41 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6568AB2FEBFC0A0AFF5E0608 /* WidgetSnapshotService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetSnapshotService.swift; path = ../TabekiriBiyori/Services/WidgetSnapshotService.swift; sourceTree = "<group>"; };
-		6951F3D921331A87B5BCC3FD /* DateRecognitionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRecognitionService.swift; path = Services/DateRecognitionService.swift; sourceTree = "<group>"; };
-		6A41D0255CFC3DC4DD7E41F4 /* TabekiriBiyoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabekiriBiyoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A577F6473B5A2333FD32F60 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		89AE9C75BAB51DB50E09BA30 /* HistoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoryView.swift; path = Views/HistoryView.swift; sourceTree = "<group>"; };
-		8F96E0F2D800CAD0DD2ACABD /* CameraPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraPicker.swift; path = Views/CameraPicker.swift; sourceTree = "<group>"; };
-		9A3719547B4AE956C5EE8C2A /* TabekiriWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TabekiriWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAC75F656BF2967194F99EA1 /* FoodItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoodItem.swift; path = ../TabekiriBiyori/Models/FoodItem.swift; sourceTree = "<group>"; };
-		AB97B5220AA07772CEE2A3CD /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppTheme.swift; path = ../TabekiriBiyori/App/AppTheme.swift; sourceTree = "<group>"; };
-		B7BF5B1E1586CDD09117E12F /* WidgetSnapshotService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetSnapshotService.swift; path = Services/WidgetSnapshotService.swift; sourceTree = "<group>"; };
-		B80C6DFFE72A9904FD26330A /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = App/RootView.swift; sourceTree = "<group>"; };
-		C2FC60F5B996D7B2C1B457EA /* ja */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Widget.strings; sourceTree = "<group>"; };
-		C7B3C2382A73B95E0DFA69CA /* FoodItemTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FoodItemTests.swift; sourceTree = "<group>"; };
-		C88DF0319B127920172D72E2 /* FoodEditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoodEditorView.swift; path = Views/FoodEditorView.swift; sourceTree = "<group>"; };
-		E5E8C55F7DCD60C7D92AB70F /* ReminderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReminderService.swift; path = Services/ReminderService.swift; sourceTree = "<group>"; };
-		E5FF89434EB477F6BF3CCEFA /* AppLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppLanguage.swift; path = Services/AppLanguage.swift; sourceTree = "<group>"; };
-		EB1B398ADC3D1589BF97800B /* FoodDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoodDetailView.swift; path = Views/FoodDetailView.swift; sourceTree = "<group>"; };
-		EF1F1456EE782EAD854822B1 /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppTheme.swift; path = App/AppTheme.swift; sourceTree = "<group>"; };
-		F1E685992DA950F5EEBFDED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F8ED24B656BAACFEE7901299 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF8177E3E91525876F193B6E /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Views/HomeView.swift; sourceTree = "<group>"; };
+		027F312CE71263B66AF6A599 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		075467D82E0C22F47B4080EA /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppTheme.swift; path = ../TabekiriBiyori/App/AppTheme.swift; sourceTree = "<group>"; };
+		0EA77D4F2FD09D3CC3330202 /* DateRecognitionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRecognitionService.swift; path = Services/DateRecognitionService.swift; sourceTree = "<group>"; };
+		217993447B704DF2C4B2E01D /* HistoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoryView.swift; path = Views/HistoryView.swift; sourceTree = "<group>"; };
+		22B2487E7A8A49631BF5E597 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Widget.strings; sourceTree = "<group>"; };
+		4740A8AAA67B21752CA29F98 /* zh-Hans */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Widget.strings"; sourceTree = "<group>"; };
+		49EC5F7B2C23FA189E99A61A /* WidgetSnapshotService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetSnapshotService.swift; path = ../TabekiriBiyori/Services/WidgetSnapshotService.swift; sourceTree = "<group>"; };
+		4A73B454F402BA4683573C5D /* WidgetSnapshotService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetSnapshotService.swift; path = Services/WidgetSnapshotService.swift; sourceTree = "<group>"; };
+		5082525AA9DB070DE9233F98 /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppTheme.swift; path = App/AppTheme.swift; sourceTree = "<group>"; };
+		510C974E007BCC68EE3E49AA /* TabekiriBiyori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabekiriBiyori.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B1FE52FCE62842AA7E065E /* FoodDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoodDetailView.swift; path = Views/FoodDetailView.swift; sourceTree = "<group>"; };
+		5C8D63A4BE9AD0D1241A547C /* TabekiriBiyoriUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabekiriBiyoriUITests.swift; sourceTree = "<group>"; };
+		5FF1B49C20031E7A057C584F /* FoodItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoodItem.swift; path = ../TabekiriBiyori/Models/FoodItem.swift; sourceTree = "<group>"; };
+		66993DF1CDB2478007A4C4DD /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		6945DA43E4CBC5CEFA0359EB /* ja */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A5F0512D903A955F9D8B171 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6FA0DE76AA40A9597F5A1C46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		758B641AD811B297BA8EEF1E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		75F4ED89F10D61B71C68694C /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A8ACF1F7E8D8BC38EF0B6AB /* TabekiriBiyoriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabekiriBiyoriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9AE0CF500E0D1CA69ECADC /* AppLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppLanguage.swift; path = Services/AppLanguage.swift; sourceTree = "<group>"; };
+		82004250ED0160C2194A418F /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Views/HomeView.swift; sourceTree = "<group>"; };
+		879C02194C5CC5FFACC31115 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = App/RootView.swift; sourceTree = "<group>"; };
+		93F4E49BFAFE70ACE29602A6 /* ja */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Widget.strings; sourceTree = "<group>"; };
+		94CE4B567F0E5CF0FD00E803 /* FoodItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoodItem.swift; path = Models/FoodItem.swift; sourceTree = "<group>"; };
+		A6EB36DC8F39C1A703F3D2EB /* ReminderService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReminderService.swift; path = Services/ReminderService.swift; sourceTree = "<group>"; };
+		BCF06C85703C1953C7FAA580 /* CameraPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraPicker.swift; path = Views/CameraPicker.swift; sourceTree = "<group>"; };
+		C72CCB5D1A13A3695D4C3310 /* ja */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA93976FF93982188CCA6A8C /* TabekiriBiyoriApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabekiriBiyoriApp.swift; path = App/TabekiriBiyoriApp.swift; sourceTree = "<group>"; };
+		CEA114FBCC7369FB81614436 /* TabekiriWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabekiriWidget.swift; sourceTree = "<group>"; };
+		D1CEB332628B86D826898EDB /* FoodEditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoodEditorView.swift; path = Views/FoodEditorView.swift; sourceTree = "<group>"; };
+		E0242989E26F0D6F80B53072 /* TabekiriWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TabekiriWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13DFB11EFD39B9118E5FF66 /* FoodItemTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FoodItemTests.swift; sourceTree = "<group>"; };
+		E3556C60EB2CAAA89A5FAF54 /* zh-Hans */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E770EE2B95E74A68805E1505 /* zh-Hans */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EC13526E8BBAA705258F6DE7 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F152F144542A4FE50D21C37D /* TabekiriBiyoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabekiriBiyoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A9946736F900992460A5508 /* Frameworks */ = {
+		4E520D468671D2F366FDF280 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D0BAB7072552EA6A06A25DA /* Foundation.framework in Frameworks */,
+				097BB9F9783C99C046F00B88 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		303A72863D8914CD716D9659 /* Frameworks */ = {
+		C7C514F3DDE0F14AC174BAD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				060439E2D2C38D1B145231E6 /* Foundation.framework in Frameworks */,
+				AD296AF815F143BB048987F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B841C49421C9373EE6AB154 /* Frameworks */ = {
+		D1C5D5E4471A3E96628F829A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A7F38177890F5A41DE85BAC /* Foundation.framework in Frameworks */,
+				54EACECAD3C0634A8DCC038E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7216985515E3EDB92B0A3218 /* Frameworks */ = {
+		D453EA4B0962151281BE1ACC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD53004A7BC004EC616BC236 /* Foundation.framework in Frameworks */,
+				26E0D4D97D222EC259C95F9A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1245AB5DB10E8A2236A5F116 /* TabekiriBiyori */ = {
+		197EB9E4025499D880E45CDC /* TabekiriBiyoriTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF1F1456EE782EAD854822B1 /* AppTheme.swift */,
-				B80C6DFFE72A9904FD26330A /* RootView.swift */,
-				05A578FECE69B163591A1358 /* TabekiriBiyoriApp.swift */,
-				08427D23D48DDE6F9C1DA2B7 /* FoodItem.swift */,
-				E5FF89434EB477F6BF3CCEFA /* AppLanguage.swift */,
-				6951F3D921331A87B5BCC3FD /* DateRecognitionService.swift */,
-				E5E8C55F7DCD60C7D92AB70F /* ReminderService.swift */,
-				B7BF5B1E1586CDD09117E12F /* WidgetSnapshotService.swift */,
-				8F96E0F2D800CAD0DD2ACABD /* CameraPicker.swift */,
-				EB1B398ADC3D1589BF97800B /* FoodDetailView.swift */,
-				C88DF0319B127920172D72E2 /* FoodEditorView.swift */,
-				89AE9C75BAB51DB50E09BA30 /* HistoryView.swift */,
-				FF8177E3E91525876F193B6E /* HomeView.swift */,
-				1C1A1D747C19E560CEED4A90 /* SettingsView.swift */,
-				F8ED24B656BAACFEE7901299 /* Assets.xcassets */,
-				514DEC3870B9BED82F893277 /* Localizable.strings */,
-				E8FE3FF7E1BE71F6EE1C5816 /* InfoPlist.strings */,
-				6BD765CEA2EBDEE28AB074C1 /* Widget.strings */,
-			);
-			name = TabekiriBiyori;
-			path = TabekiriBiyori;
-			sourceTree = "<group>";
-		};
-		2CC3D85D1E7CBEA654D5AE3F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8647CA50A7B291BBF6BF87B7 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		449167C447EE9BE1B2A7D00C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5F82114B12AD877BF3EF9066 /* TabekiriBiyori.app */,
-				9A3719547B4AE956C5EE8C2A /* TabekiriWidget.appex */,
-				6A41D0255CFC3DC4DD7E41F4 /* TabekiriBiyoriTests.xctest */,
-				2898EC4136DA10639337BEDC /* TabekiriBiyoriUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		44C6DF8415CB53F61844DA40 /* TabekiriBiyoriUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0EB72F5D4F18125ED68E278C /* TabekiriBiyoriUITests.swift */,
-			);
-			name = TabekiriBiyoriUITests;
-			path = TabekiriBiyoriUITests;
-			sourceTree = "<group>";
-		};
-		5963000891239BBE9700CC2E /* TabekiriBiyoriTests */ = {
-			isa = PBXGroup;
-			children = (
-				C7B3C2382A73B95E0DFA69CA /* FoodItemTests.swift */,
+				E13DFB11EFD39B9118E5FF66 /* FoodItemTests.swift */,
 			);
 			name = TabekiriBiyoriTests;
 			path = TabekiriBiyoriTests;
 			sourceTree = "<group>";
 		};
-		7052C21C2D22F5DBA6924C76 /* TabekiriWidget */ = {
+		5EBD06DD531BCB27F69659A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				083BC8335BAFC131B63F85D2 /* TabekiriWidget.swift */,
-				AB97B5220AA07772CEE2A3CD /* AppTheme.swift */,
-				AAC75F656BF2967194F99EA1 /* FoodItem.swift */,
-				6568AB2FEBFC0A0AFF5E0608 /* WidgetSnapshotService.swift */,
+				510C974E007BCC68EE3E49AA /* TabekiriBiyori.app */,
+				E0242989E26F0D6F80B53072 /* TabekiriWidget.appex */,
+				F152F144542A4FE50D21C37D /* TabekiriBiyoriTests.xctest */,
+				7A8ACF1F7E8D8BC38EF0B6AB /* TabekiriBiyoriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F3673184ADF418E5E5FA934 = {
+			isa = PBXGroup;
+			children = (
+				5EBD06DD531BCB27F69659A8 /* Products */,
+				B7AF32153077A79BB5178A0C /* Frameworks */,
+				F39A8E28306F2B717A82527C /* TabekiriBiyori */,
+				EC0E60BB633413BDF7690615 /* TabekiriWidget */,
+				197EB9E4025499D880E45CDC /* TabekiriBiyoriTests */,
+				B040AF3EEFF945D5994D73B8 /* TabekiriBiyoriUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		B040AF3EEFF945D5994D73B8 /* TabekiriBiyoriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C8D63A4BE9AD0D1241A547C /* TabekiriBiyoriUITests.swift */,
+			);
+			name = TabekiriBiyoriUITests;
+			path = TabekiriBiyoriUITests;
+			sourceTree = "<group>";
+		};
+		B7AF32153077A79BB5178A0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFD9837FDAD1CAB3BB8FDC40 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC0E60BB633413BDF7690615 /* TabekiriWidget */ = {
+			isa = PBXGroup;
+			children = (
+				CEA114FBCC7369FB81614436 /* TabekiriWidget.swift */,
+				075467D82E0C22F47B4080EA /* AppTheme.swift */,
+				5FF1B49C20031E7A057C584F /* FoodItem.swift */,
+				49EC5F7B2C23FA189E99A61A /* WidgetSnapshotService.swift */,
+				6A5F0512D903A955F9D8B171 /* PrivacyInfo.xcprivacy */,
 			);
 			name = TabekiriWidget;
 			path = TabekiriWidget;
 			sourceTree = "<group>";
 		};
-		8647CA50A7B291BBF6BF87B7 /* iOS */ = {
+		F39A8E28306F2B717A82527C /* TabekiriBiyori */ = {
 			isa = PBXGroup;
 			children = (
-				F1E685992DA950F5EEBFDED1 /* Foundation.framework */,
+				5082525AA9DB070DE9233F98 /* AppTheme.swift */,
+				879C02194C5CC5FFACC31115 /* RootView.swift */,
+				CA93976FF93982188CCA6A8C /* TabekiriBiyoriApp.swift */,
+				94CE4B567F0E5CF0FD00E803 /* FoodItem.swift */,
+				7A9AE0CF500E0D1CA69ECADC /* AppLanguage.swift */,
+				0EA77D4F2FD09D3CC3330202 /* DateRecognitionService.swift */,
+				A6EB36DC8F39C1A703F3D2EB /* ReminderService.swift */,
+				4A73B454F402BA4683573C5D /* WidgetSnapshotService.swift */,
+				BCF06C85703C1953C7FAA580 /* CameraPicker.swift */,
+				51B1FE52FCE62842AA7E065E /* FoodDetailView.swift */,
+				D1CEB332628B86D826898EDB /* FoodEditorView.swift */,
+				217993447B704DF2C4B2E01D /* HistoryView.swift */,
+				82004250ED0160C2194A418F /* HomeView.swift */,
+				66993DF1CDB2478007A4C4DD /* SettingsView.swift */,
+				027F312CE71263B66AF6A599 /* Assets.xcassets */,
+				758B641AD811B297BA8EEF1E /* PrivacyInfo.xcprivacy */,
+				0B4BC76D7875D8BD02C0C094 /* Localizable.strings */,
+				16A8D368C97418506D747F47 /* InfoPlist.strings */,
+				0677585EB110794DE7DA6CF2 /* Widget.strings */,
 			);
-			name = iOS;
+			name = TabekiriBiyori;
+			path = TabekiriBiyori;
 			sourceTree = "<group>";
 		};
-		AFD5158C1489B4A190D77CAE = {
+		FFD9837FDAD1CAB3BB8FDC40 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				449167C447EE9BE1B2A7D00C /* Products */,
-				2CC3D85D1E7CBEA654D5AE3F /* Frameworks */,
-				1245AB5DB10E8A2236A5F116 /* TabekiriBiyori */,
-				7052C21C2D22F5DBA6924C76 /* TabekiriWidget */,
-				5963000891239BBE9700CC2E /* TabekiriBiyoriTests */,
-				44C6DF8415CB53F61844DA40 /* TabekiriBiyoriUITests */,
+				6FA0DE76AA40A9597F5A1C46 /* Foundation.framework */,
 			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0E6CD2366C98C8B87337C631 /* TabekiriBiyoriTests */ = {
+		68928D180E55929E0566BD07 /* TabekiriBiyori */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC11A81FE916D98CF17081ED /* Build configuration list for PBXNativeTarget "TabekiriBiyoriTests" */;
+			buildConfigurationList = 55685DEC0AB3EC2AB2BC835C /* Build configuration list for PBXNativeTarget "TabekiriBiyori" */;
 			buildPhases = (
-				7891DC364EF9087F33CAFF0E /* Sources */,
-				7216985515E3EDB92B0A3218 /* Frameworks */,
-				5A0304B381227A850233CD9C /* Resources */,
+				7DBA31BB79834373FB305C00 /* Sources */,
+				D453EA4B0962151281BE1ACC /* Frameworks */,
+				D048B8CCA344ABD20C117437 /* Resources */,
+				66C590184FC3063828B375DE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D706B0A403A933BA282DF9D /* PBXTargetDependency */,
+				4E65DC9CA1F50E8DF62F569E /* PBXTargetDependency */,
 			);
-			name = TabekiriBiyoriTests;
-			productName = TabekiriBiyoriTests;
-			productReference = 6A41D0255CFC3DC4DD7E41F4 /* TabekiriBiyoriTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = TabekiriBiyori;
+			productName = TabekiriBiyori;
+			productReference = 510C974E007BCC68EE3E49AA /* TabekiriBiyori.app */;
+			productType = "com.apple.product-type.application";
 		};
-		77FB8E666D05CF4302D093C1 /* TabekiriBiyoriUITests */ = {
+		A6A56E1F09A8535F001D6A9D /* TabekiriBiyoriUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93032C5F5E3542289760EFAC /* Build configuration list for PBXNativeTarget "TabekiriBiyoriUITests" */;
+			buildConfigurationList = AF1F14353BAEBFBE6EEE2275 /* Build configuration list for PBXNativeTarget "TabekiriBiyoriUITests" */;
 			buildPhases = (
-				378F6E5C0D01B6EF50C1DAB8 /* Sources */,
-				303A72863D8914CD716D9659 /* Frameworks */,
-				FD07AFD988D89E58DF3BE418 /* Resources */,
+				7FA454EA0F403F96840AAFBC /* Sources */,
+				4E520D468671D2F366FDF280 /* Frameworks */,
+				B4FCC0744F0759470D6994DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				428D88F8D7E48C194FB074B9 /* PBXTargetDependency */,
+				5ECFFD07AE5F155244989EE1 /* PBXTargetDependency */,
 			);
 			name = TabekiriBiyoriUITests;
 			productName = TabekiriBiyoriUITests;
-			productReference = 2898EC4136DA10639337BEDC /* TabekiriBiyoriUITests.xctest */;
+			productReference = 7A8ACF1F7E8D8BC38EF0B6AB /* TabekiriBiyoriUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		BA176B4F61A2D3637CE77FFD /* TabekiriWidget */ = {
+		BF2C915839C10038A6946396 /* TabekiriBiyoriTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 053A77E428B8ABAA306927D0 /* Build configuration list for PBXNativeTarget "TabekiriWidget" */;
+			buildConfigurationList = 44ED311A6F302EE16699FA2F /* Build configuration list for PBXNativeTarget "TabekiriBiyoriTests" */;
 			buildPhases = (
-				D8A19B097DFA90E442EABE48 /* Sources */,
-				3B841C49421C9373EE6AB154 /* Frameworks */,
-				A949EBB97F1B62E13FEF96BC /* Resources */,
+				98775CB911B264F74401A780 /* Sources */,
+				D1C5D5E4471A3E96628F829A /* Frameworks */,
+				F2036764C1B6836C12F5B24A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1788EA63F686EE2D70CC6B8 /* PBXTargetDependency */,
+			);
+			name = TabekiriBiyoriTests;
+			productName = TabekiriBiyoriTests;
+			productReference = F152F144542A4FE50D21C37D /* TabekiriBiyoriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1611CB60FB93EDF43F4D3D5 /* TabekiriWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E4CDB0D226F9B3C14A4A4B /* Build configuration list for PBXNativeTarget "TabekiriWidget" */;
+			buildPhases = (
+				EC629C1FA0148FA4C6A3A4FE /* Sources */,
+				C7C514F3DDE0F14AC174BAD9 /* Frameworks */,
+				251EA7F4C0112E4A2B656D22 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -298,38 +323,19 @@
 			);
 			name = TabekiriWidget;
 			productName = TabekiriWidget;
-			productReference = 9A3719547B4AE956C5EE8C2A /* TabekiriWidget.appex */;
+			productReference = E0242989E26F0D6F80B53072 /* TabekiriWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
-		};
-		C129A4DE94BE2496C65E59CF /* TabekiriBiyori */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71E32797CF76BA928B953B32 /* Build configuration list for PBXNativeTarget "TabekiriBiyori" */;
-			buildPhases = (
-				D02B468B325E5A982E816478 /* Sources */,
-				2A9946736F900992460A5508 /* Frameworks */,
-				39CAEF88BF43872FA43C3D57 /* Resources */,
-				36AD3B92653814D5D975AFC5 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AA87A55B288F5F13694D8FB6 /* PBXTargetDependency */,
-			);
-			name = TabekiriBiyori;
-			productName = TabekiriBiyori;
-			productReference = 5F82114B12AD877BF3EF9066 /* TabekiriBiyori.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F49A95D45A59DCFDF03510A /* Project object */ = {
+		FC09C58B731B924D2CC3B184 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 55E31BCAA0CA5CFD3388A995 /* Build configuration list for PBXProject "TabekiriBiyori" */;
+			buildConfigurationList = 5F19CD91D5A0FA5845C1D9FD /* Build configuration list for PBXProject "TabekiriBiyori" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -339,48 +345,50 @@
 				"zh-Hans",
 				Base,
 			);
-			mainGroup = AFD5158C1489B4A190D77CAE;
+			mainGroup = 9F3673184ADF418E5E5FA934;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 449167C447EE9BE1B2A7D00C /* Products */;
+			productRefGroup = 5EBD06DD531BCB27F69659A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C129A4DE94BE2496C65E59CF /* TabekiriBiyori */,
-				BA176B4F61A2D3637CE77FFD /* TabekiriWidget */,
-				0E6CD2366C98C8B87337C631 /* TabekiriBiyoriTests */,
-				77FB8E666D05CF4302D093C1 /* TabekiriBiyoriUITests */,
+				68928D180E55929E0566BD07 /* TabekiriBiyori */,
+				C1611CB60FB93EDF43F4D3D5 /* TabekiriWidget */,
+				BF2C915839C10038A6946396 /* TabekiriBiyoriTests */,
+				A6A56E1F09A8535F001D6A9D /* TabekiriBiyoriUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39CAEF88BF43872FA43C3D57 /* Resources */ = {
+		251EA7F4C0112E4A2B656D22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89786DDC9CDB244398E792BB /* Assets.xcassets in Resources */,
-				3514F54357AF285F4C6A2B49 /* Localizable.strings in Resources */,
-				2119E8648948CD06D1DD2B7C /* InfoPlist.strings in Resources */,
+				043CCCAFC701E0B2A3AFBFD9 /* PrivacyInfo.xcprivacy in Resources */,
+				B81FA3E3E6BB5028AC3AEA4F /* Widget.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A0304B381227A850233CD9C /* Resources */ = {
+		B4FCC0744F0759470D6994DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A949EBB97F1B62E13FEF96BC /* Resources */ = {
+		D048B8CCA344ABD20C117437 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1503723ED9489E912A73C4B8 /* Widget.strings in Resources */,
+				BA87C98E6CADFCC2A31FEA0D /* Assets.xcassets in Resources */,
+				3B2DA1EFED43C607294C14E2 /* PrivacyInfo.xcprivacy in Resources */,
+				C9AA01F26C95B9EAF3DD1376 /* Localizable.strings in Resources */,
+				6B4DE3C48B33E2F01AFA8893 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD07AFD988D89E58DF3BE418 /* Resources */ = {
+		F2036764C1B6836C12F5B24A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -390,104 +398,104 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		378F6E5C0D01B6EF50C1DAB8 /* Sources */ = {
+		7DBA31BB79834373FB305C00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1645420D814DA4A5104C292F /* TabekiriBiyoriUITests.swift in Sources */,
+				41A796EFF03EE1D2A42238EC /* AppTheme.swift in Sources */,
+				59FDEDD26F8A14E7FC4BC059 /* RootView.swift in Sources */,
+				3FA60048E8CC5566F14101F5 /* TabekiriBiyoriApp.swift in Sources */,
+				4FF68CB865FE1D53E7D7424D /* FoodItem.swift in Sources */,
+				E87D110FBEDE51926C021A55 /* AppLanguage.swift in Sources */,
+				A8727BF353D1FDC5CB476DC8 /* DateRecognitionService.swift in Sources */,
+				45A93332997211347716B795 /* ReminderService.swift in Sources */,
+				C9B79731D45B8835789FD86A /* WidgetSnapshotService.swift in Sources */,
+				08A949C1B8FB99C8187D43CA /* CameraPicker.swift in Sources */,
+				6AA971EF344B62E4DAD25949 /* FoodDetailView.swift in Sources */,
+				41E79CA87A914738671EDD13 /* FoodEditorView.swift in Sources */,
+				37435FF31D5D16AB6473BA9E /* HistoryView.swift in Sources */,
+				2CE18ED5BF41A6DF9AA759CF /* HomeView.swift in Sources */,
+				AF14AA1F2F68C80499A6470B /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7891DC364EF9087F33CAFF0E /* Sources */ = {
+		7FA454EA0F403F96840AAFBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E272B6D96C9B93A55029CC5 /* FoodItemTests.swift in Sources */,
+				E56729B7019808217BA76239 /* TabekiriBiyoriUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D02B468B325E5A982E816478 /* Sources */ = {
+		98775CB911B264F74401A780 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558BF9AA9A26161467C9F049 /* AppTheme.swift in Sources */,
-				C4143CB96C970C92E5F36A05 /* RootView.swift in Sources */,
-				6E2F19A0D2E048140FCA5150 /* TabekiriBiyoriApp.swift in Sources */,
-				292A6E9BA6BA3339B1976FB8 /* FoodItem.swift in Sources */,
-				67CFFED30299FB2B8A07D1A3 /* AppLanguage.swift in Sources */,
-				E0D6BD8CDBA0228B4419DC8C /* DateRecognitionService.swift in Sources */,
-				2A75842AA41E90245182B229 /* ReminderService.swift in Sources */,
-				9E26FB70C3AD0DB1F26187CB /* WidgetSnapshotService.swift in Sources */,
-				B883AB1D2A3CB5978AE34A20 /* CameraPicker.swift in Sources */,
-				C6EC3496A5B6C825FA37F8C0 /* FoodDetailView.swift in Sources */,
-				5CF8305E615A5E11BED2586E /* FoodEditorView.swift in Sources */,
-				9521FD44297A6E5E4212D209 /* HistoryView.swift in Sources */,
-				87BF895E129892A4E2C4AE88 /* HomeView.swift in Sources */,
-				C804B0B9EB066E80A76A69D4 /* SettingsView.swift in Sources */,
+				C99FF3DB73D6CEDE514D1179 /* FoodItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8A19B097DFA90E442EABE48 /* Sources */ = {
+		EC629C1FA0148FA4C6A3A4FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA64B2BEEBDFCD0A953928C2 /* TabekiriWidget.swift in Sources */,
-				D0ED2EAFCD44855FC07543C3 /* AppTheme.swift in Sources */,
-				3AB38A2460014CE3FFD752D1 /* FoodItem.swift in Sources */,
-				BE628490E1C9952D5FED7C63 /* WidgetSnapshotService.swift in Sources */,
+				CFABCD93797AE29125895ABC /* TabekiriWidget.swift in Sources */,
+				2DE1CE0389B04A25AFDF4595 /* AppTheme.swift in Sources */,
+				806D74BE5A937DA6371B971F /* FoodItem.swift in Sources */,
+				D00AF1593AA2886A8FDF1699 /* WidgetSnapshotService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D706B0A403A933BA282DF9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TabekiriBiyori;
-			target = C129A4DE94BE2496C65E59CF /* TabekiriBiyori */;
-			targetProxy = 7B4C389788000154FD708ECC /* PBXContainerItemProxy */;
-		};
-		428D88F8D7E48C194FB074B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TabekiriBiyori;
-			target = C129A4DE94BE2496C65E59CF /* TabekiriBiyori */;
-			targetProxy = 5615457C59C4B17A6C213C68 /* PBXContainerItemProxy */;
-		};
-		AA87A55B288F5F13694D8FB6 /* PBXTargetDependency */ = {
+		4E65DC9CA1F50E8DF62F569E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TabekiriWidget;
-			target = BA176B4F61A2D3637CE77FFD /* TabekiriWidget */;
-			targetProxy = 0A3A0211C810B3E6C9C27CB7 /* PBXContainerItemProxy */;
+			target = C1611CB60FB93EDF43F4D3D5 /* TabekiriWidget */;
+			targetProxy = 2893CD88F1CEAF0321FF6EDF /* PBXContainerItemProxy */;
+		};
+		5ECFFD07AE5F155244989EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TabekiriBiyori;
+			target = 68928D180E55929E0566BD07 /* TabekiriBiyori */;
+			targetProxy = 6164C9E02E8D3664CA060E2A /* PBXContainerItemProxy */;
+		};
+		B1788EA63F686EE2D70CC6B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TabekiriBiyori;
+			target = 68928D180E55929E0566BD07 /* TabekiriBiyori */;
+			targetProxy = 358AB8919E6C2971A647D5C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		514DEC3870B9BED82F893277 /* Localizable.strings */ = {
+		0677585EB110794DE7DA6CF2 /* Widget.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5F8406849D394F3F62C3F543 /* ja */,
-				7A577F6473B5A2333FD32F60 /* en */,
-				15C8B10392B60E1DD1D2B4B8 /* zh-Hans */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		6BD765CEA2EBDEE28AB074C1 /* Widget.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2FC60F5B996D7B2C1B457EA /* ja */,
-				4FD01F9BEE34A3289F79DFA5 /* en */,
-				31E768A063B40A1295D8C496 /* zh-Hans */,
+				93F4E49BFAFE70ACE29602A6 /* ja */,
+				22B2487E7A8A49631BF5E597 /* en */,
+				4740A8AAA67B21752CA29F98 /* zh-Hans */,
 			);
 			name = Widget.strings;
 			sourceTree = "<group>";
 		};
-		E8FE3FF7E1BE71F6EE1C5816 /* InfoPlist.strings */ = {
+		0B4BC76D7875D8BD02C0C094 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				24B07B6DC8EF48B7E7E04B96 /* ja */,
-				6305EEC9A07465891CCE5E41 /* en */,
-				290ED3A6A865897C63608ACE /* zh-Hans */,
+				6945DA43E4CBC5CEFA0359EB /* ja */,
+				EC13526E8BBAA705258F6DE7 /* en */,
+				E770EE2B95E74A68805E1505 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		16A8D368C97418506D747F47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C72CCB5D1A13A3695D4C3310 /* ja */,
+				75F4ED89F10D61B71C68694C /* en */,
+				E3556C60EB2CAAA89A5FAF54 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -495,7 +503,41 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0BEE026575B1075CBE539DC9 /* Debug */ = {
+		06938DB157EEC2F125B17989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = TabekiriWidget/TabekiriWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TabekiriWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0748CF353F064DB8CED2CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabekiriBiyori.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabekiriBiyori";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29A20D20E5CD120F472B4370 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,7 +552,94 @@
 			};
 			name = Debug;
 		};
-		166491D2CE259E58EDB446C4 /* Release */ = {
+		9A243BD3F4A7575E40F7AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = TabekiriWidget/TabekiriWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TabekiriWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4D09B2C24F1C62C18E8B820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TabekiriBiyori;
+			};
+			name = Debug;
+		};
+		B8139ED08B5B4502A645524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFACB58AD9485DFFEB433CDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -533,7 +662,22 @@
 			};
 			name = Release;
 		};
-		47D887FC4B874EBF462C5DA3 /* Debug */ = {
+		E24EA7DDBE3340F0BC18D210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = TabekiriBiyori;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8BB87D30F898AFB91651198 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -555,7 +699,7 @@
 			};
 			name = Debug;
 		};
-		5DD839FFD20F50F805B486B2 /* Debug */ = {
+		FCDA8A6CEB3A4CE739A9A2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -616,191 +760,55 @@
 			};
 			name = Debug;
 		};
-		7E0BB8BB374D6C5ABEBB57C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.uitests;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_TARGET_NAME = TabekiriBiyori;
-			};
-			name = Debug;
-		};
-		82989E4C5E42B0069368C38F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = TabekiriWidget/TabekiriWidget.entitlements;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = TabekiriWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.widget;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		8A1F8303D49BC9BC82C0DA2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.tests;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabekiriBiyori.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabekiriBiyori";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8FE8C458D369D5CB450726E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		AB703EB5C9AB4F622D6980CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.uitests;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_TARGET_NAME = TabekiriBiyori;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B9B464CDD4506B119F46E5C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_ENTITLEMENTS = TabekiriWidget/TabekiriWidget.entitlements;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = TabekiriWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.tabekiribiyori.widget;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		053A77E428B8ABAA306927D0 /* Build configuration list for PBXNativeTarget "TabekiriWidget" */ = {
+		44ED311A6F302EE16699FA2F /* Build configuration list for PBXNativeTarget "TabekiriBiyoriTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9B464CDD4506B119F46E5C1 /* Release */,
-				82989E4C5E42B0069368C38F /* Debug */,
+				0748CF353F064DB8CED2CCDC /* Release */,
+				29A20D20E5CD120F472B4370 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E31BCAA0CA5CFD3388A995 /* Build configuration list for PBXProject "TabekiriBiyori" */ = {
+		55685DEC0AB3EC2AB2BC835C /* Build configuration list for PBXNativeTarget "TabekiriBiyori" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DD839FFD20F50F805B486B2 /* Debug */,
-				8FE8C458D369D5CB450726E8 /* Release */,
+				CFACB58AD9485DFFEB433CDD /* Release */,
+				E8BB87D30F898AFB91651198 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71E32797CF76BA928B953B32 /* Build configuration list for PBXNativeTarget "TabekiriBiyori" */ = {
+		5F19CD91D5A0FA5845C1D9FD /* Build configuration list for PBXProject "TabekiriBiyori" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				166491D2CE259E58EDB446C4 /* Release */,
-				47D887FC4B874EBF462C5DA3 /* Debug */,
+				FCDA8A6CEB3A4CE739A9A2C7 /* Debug */,
+				B8139ED08B5B4502A645524D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93032C5F5E3542289760EFAC /* Build configuration list for PBXNativeTarget "TabekiriBiyoriUITests" */ = {
+		AF1F14353BAEBFBE6EEE2275 /* Build configuration list for PBXNativeTarget "TabekiriBiyoriUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB703EB5C9AB4F622D6980CC /* Release */,
-				7E0BB8BB374D6C5ABEBB57C6 /* Debug */,
+				E24EA7DDBE3340F0BC18D210 /* Release */,
+				B4D09B2C24F1C62C18E8B820 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC11A81FE916D98CF17081ED /* Build configuration list for PBXNativeTarget "TabekiriBiyoriTests" */ = {
+		C1E4CDB0D226F9B3C14A4A4B /* Build configuration list for PBXNativeTarget "TabekiriWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A1F8303D49BC9BC82C0DA2D /* Release */,
-				0BEE026575B1075CBE539DC9 /* Debug */,
+				9A243BD3F4A7575E40F7AAB7 /* Release */,
+				06938DB157EEC2F125B17989 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F49A95D45A59DCFDF03510A /* Project object */;
+	rootObject = FC09C58B731B924D2CC3B184 /* Project object */;
 }
