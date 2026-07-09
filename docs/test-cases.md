@@ -19,4 +19,13 @@
 | T15 | Device dark mode | App remains light and all text remains readable |
 | T16 | Relaunch | Active items, history, settings, and language persist |
 | T17 | Widget | Three nearest items match saved active data |
-
+| T18 | Free user adds item 1–10 | Items save normally |
+| T19 | Free user taps Add at 10 active items | Pro page opens; existing data remains usable |
+| T20 | Free user taps date scan/reminder | Pro page opens without requesting unrelated permissions |
+| T21 | Buy lifetime Pro | Apple sheet completes; verified entitlement unlocks all Pro features |
+| T22 | Cancel purchase | Pro remains locked; no error is falsely shown |
+| T23 | Pending purchase | Pending explanation appears; app remains usable |
+| T24 | Restore existing purchase | Pro unlocks and success feedback appears |
+| T25 | Restore with no purchase | “Nothing to restore” feedback appears |
+| T26 | Refund/revoke transaction | Pro locks again; existing foods remain visible/editable |
+| T27 | Product price | UI uses StoreKit localized `displayPrice`, not a hard-coded price |

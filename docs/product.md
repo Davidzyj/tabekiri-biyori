@@ -9,7 +9,10 @@
 - Bundle ID: `com.zhouyajie.tabekiribiyori`
 - Platforms: iPhone only, iOS 17+
 - Positioning: a quiet, private food-expiry helper—not an inventory system
-- Data: local-only; no account, analytics, ads, tracking, or proactive network access
+- Data: food data remains local-only; no account, analytics, ads, or tracking
+- Monetization: free tier plus one non-consumable lifetime Pro purchase through Apple StoreKit
+- Free tier: up to 10 active foods with manual entry and full history
+- Pro: unlimited active foods, on-device photo date scanning, daily reminder, and Widget
 
 ## Primary user paths
 
@@ -83,6 +86,20 @@ Acceptance:
 - Settings does not expose URLs or the support email as row text.
 - No web request occurs before a user opens a link.
 
+### 8. Lifetime Pro purchase
+
+Settings → Pro → review localized App Store price → Buy → Apple purchase sheet → verified transaction → Pro features unlock and remain available after relaunch.
+
+Acceptance:
+
+- The price comes from StoreKit and is never hard-coded in the purchase UI.
+- Purchase cancellation leaves the app unchanged and shows no false error.
+- Pending, failed, purchased, restored, and nothing-to-restore states have clear feedback.
+- A Restore Purchases button is always available on the Pro page.
+- Refund or revocation removes Pro access after StoreKit reports it.
+- Existing food is never hidden or deleted when Pro access is absent.
+- At the free limit, Add opens the Pro page; after purchase, Continue resumes the Add path.
+
 ## Visual principles
 
 - Forced light appearance to guarantee review-device readability.
@@ -90,4 +107,3 @@ Acceptance:
 - Native typography and controls; generous spacing; no decorative clutter.
 - Every pale surface uses explicit dark foreground and placeholder colors.
 - Color is never the only urgency signal.
-

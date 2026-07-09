@@ -4,9 +4,12 @@ import SwiftData
 struct HomeView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(LanguageController.self) private var language
+    @Environment(PurchaseManager.self) private var purchases
     @Query(sort: \FoodItem.expiryDate) private var allItems: [FoodItem]
     @State private var showingAdd = false
+    @State private var showingPro = false
     @State private var feedbackKey: String?
+    @State private var didApplyUITestSetup = false
 
     private var activeItems: [FoodItem] { allItems.filter { $0.outcome == .active } }
     private var overdue: [FoodItem] { activeItems.filter { $0.daysRemaining < 0 } }
@@ -37,7 +40,7 @@ struct HomeView: View {
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
-                        showingAdd = true
+                        beginAdding()
                     } label: {
                         Label("add_food", systemImage: "plus")
                     }
@@ -47,6 +50,14 @@ struct HomeView: View {
             }
             .sheet(isPresented: $showingAdd) {
                 FoodEditorView { feedbackKey = "feedback_added" }
+            }
+            .sheet(isPresented: $showingPro) {
+                ProUpgradeView {
+                    Task {
+                        try? await Task.sleep(for: .milliseconds(250))
+                        showingAdd = true
+                    }
+                }
             }
             .overlay(alignment: .bottom) {
                 if let feedbackKey {
@@ -65,7 +76,10 @@ struct HomeView: View {
                 }
             }
             .onChange(of: allItems.map(\.updatedAt)) { _, _ in WidgetSnapshotService.write(items: allItems) }
-            .onAppear { WidgetSnapshotService.write(items: allItems) }
+            .onAppear {
+                applyUITestSetupIfNeeded()
+                WidgetSnapshotService.write(items: allItems)
+            }
         }
     }
 
@@ -84,7 +98,7 @@ struct HomeView: View {
                 .foregroundStyle(AppTheme.secondaryInk)
                 .padding(.horizontal, 40)
             Button {
-                showingAdd = true
+                beginAdding()
             } label: {
                 Label("add_first", systemImage: "plus")
                     .font(.headline)
@@ -108,6 +122,15 @@ struct HomeView: View {
                     .font(.system(size: 38, weight: .medium, design: .rounded))
                     .foregroundStyle(AppTheme.ink)
                 Text("home_items_unit").font(.caption).foregroundStyle(AppTheme.secondaryInk)
+                if !purchases.isPro {
+                    Text(String(
+                        format: language.string("free_usage_format"),
+                        activeItems.count,
+                        FeatureAccess.freeActiveItemLimit
+                    ))
+                    .font(.caption2.weight(.semibold))
+                    .foregroundStyle(AppTheme.accent)
+                }
             }
             Spacer()
             Image(systemName: "takeoutbag.and.cup.and.straw")
@@ -139,6 +162,34 @@ struct HomeView: View {
                 }
             }
         }
+    }
+
+    private func beginAdding() {
+        if FeatureAccess.canAddFood(activeItemCount: activeItems.count, isPro: purchases.isPro) {
+            showingAdd = true
+        } else {
+            showingPro = true
+        }
+    }
+
+    private func applyUITestSetupIfNeeded() {
+#if DEBUG
+        guard !didApplyUITestSetup,
+              ProcessInfo.processInfo.arguments.contains("-uiTestingResetData") else { return }
+        didApplyUITestSetup = true
+        allItems.forEach(modelContext.delete)
+        if ProcessInfo.processInfo.arguments.contains("-uiTestingSeedFreeLimit") {
+            for index in 1...FeatureAccess.freeActiveItemLimit {
+                modelContext.insert(FoodItem(
+                    name: "Seed \(index)",
+                    expiryDate: Calendar.current.date(byAdding: .day, value: index, to: .now) ?? .now,
+                    expiryKind: .bestBefore,
+                    storage: .fridge
+                ))
+            }
+        }
+        try? modelContext.save()
+#endif
     }
 }
 

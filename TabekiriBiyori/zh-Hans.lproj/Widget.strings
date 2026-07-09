@@ -2,4 +2,4 @@
 "widget_empty" = "记录期限后，食品会显示在这里。";
 "widget_display_name" = "食鲜日记";
 "widget_description" = "查看即将到期的食品。";
-
+"widget_pro_required" = "解锁 Pro 后查看即将到期的食品。";

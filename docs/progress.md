@@ -33,3 +33,13 @@
 - Real simulator visual QA found and fixed launch letterboxing and bottom-tab spacing.
 - Usage guide, test cases, handoff, and manual owner steps are documented.
 - App Store screenshots were intentionally not generated.
+
+## Phase 6 — Lifetime Pro
+
+- Status: Complete
+- Added a StoreKit 2 non-consumable lifetime product and Xcode StoreKit configuration.
+- Added purchase, pending, cancellation, failure, restore, refund/revocation, and entitlement-update handling.
+- Added a Japanese-style trilingual Pro page using StoreKit’s localized price.
+- Added a 10-active-item free tier; existing data is never hidden or deleted.
+- Gated unlimited items, photo date scan, reminders, and Widget content behind Pro.
+- Added feature-policy tests, StoreKit purchase/refund tests, and Pro UI-path coverage.

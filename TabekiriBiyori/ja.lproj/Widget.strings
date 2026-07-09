@@ -2,4 +2,4 @@
 "widget_empty" = "期限を登録すると、ここに表示されます。";
 "widget_display_name" = "たべきり日和";
 "widget_description" = "期限が近い食品を表示します。";
-
+"widget_pro_required" = "Proで期限の近い食品を表示できます。";

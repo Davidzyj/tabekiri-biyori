@@ -18,6 +18,8 @@ A private, local-only iPhone app for seeing which food should be enjoyed next.
 
 The app stores food and settings locally. It does not require an account or backend.
 
+The free tier supports up to 10 active foods. A StoreKit 2 non-consumable lifetime purchase unlocks unlimited foods, on-device date scanning, reminders, and Widget content. `TabekiriBiyori/Configuration.storekit` provides local purchase testing; the matching production product must be created in App Store Connect.
+
 ## Verification
 
 ```sh
@@ -30,4 +32,3 @@ xcodebuild -project TabekiriBiyori.xcodeproj \
 ```
 
 See [docs/usage.md](docs/usage.md), [docs/test-cases.md](docs/test-cases.md), and [docs/handoff.md](docs/handoff.md).
-

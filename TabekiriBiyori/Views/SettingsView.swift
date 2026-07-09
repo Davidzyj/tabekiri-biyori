@@ -2,10 +2,12 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(LanguageController.self) private var language
+    @Environment(PurchaseManager.self) private var purchases
     @AppStorage("dailyReminderEnabled") private var reminderEnabled = false
     @AppStorage("dailyReminderHour") private var reminderHour = 20
     @AppStorage("dailyReminderMinute") private var reminderMinute = 0
     @State private var permissionAlert = false
+    @State private var showingPro = false
 
     private var reminderTime: Binding<Date> {
         Binding {
@@ -24,14 +26,56 @@ struct SettingsView: View {
             ZStack {
                 AppTheme.background.ignoresSafeArea()
                 Form {
+                    Section("settings_pro_section") {
+                        Button {
+                            showingPro = true
+                        } label: {
+                            HStack {
+                                Image(systemName: purchases.isPro ? "checkmark.seal.fill" : "leaf.fill")
+                                    .foregroundStyle(purchases.isPro ? AppTheme.leaf : AppTheme.accent)
+                                    .frame(width: 28)
+                                VStack(alignment: .leading, spacing: 3) {
+                                    Text(purchases.isPro ? "pro_unlocked_title" : "pro_title")
+                                        .foregroundStyle(AppTheme.ink)
+                                    Text(purchases.isPro ? "pro_status_active" : "pro_settings_subtitle")
+                                        .font(.caption)
+                                        .foregroundStyle(AppTheme.secondaryInk)
+                                }
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .font(.caption)
+                                    .foregroundStyle(AppTheme.secondaryInk)
+                            }
+                        }
+                        .accessibilityIdentifier("openProButton")
+                    }
+                    .listRowBackground(AppTheme.surface)
+
                     Section("settings_reminder_section") {
-                        Toggle("daily_reminder", isOn: Binding(
-                            get: { reminderEnabled },
-                            set: { newValue in Task { await reschedule(enabled: newValue) } }
-                        ))
-                        .tint(AppTheme.leaf)
-                        if reminderEnabled {
-                            DatePicker("reminder_time", selection: reminderTime, displayedComponents: .hourAndMinute)
+                        if purchases.isPro {
+                            Toggle("daily_reminder", isOn: Binding(
+                                get: { reminderEnabled },
+                                set: { newValue in Task { await reschedule(enabled: newValue) } }
+                            ))
+                            .tint(AppTheme.leaf)
+                            if reminderEnabled {
+                                DatePicker("reminder_time", selection: reminderTime, displayedComponents: .hourAndMinute)
+                            }
+                        } else {
+                            Button {
+                                showingPro = true
+                            } label: {
+                                HStack {
+                                    Text("daily_reminder").foregroundStyle(AppTheme.ink)
+                                    Spacer()
+                                    Text("pro_badge")
+                                        .font(.caption2.weight(.bold))
+                                        .foregroundStyle(AppTheme.accent)
+                                    Image(systemName: "lock.fill")
+                                        .font(.caption)
+                                        .foregroundStyle(AppTheme.secondaryInk)
+                                }
+                            }
                         }
                         Text("reminder_description")
                             .font(.caption).foregroundStyle(AppTheme.secondaryInk)
@@ -79,6 +123,20 @@ struct SettingsView: View {
             .alert("notification_denied_title", isPresented: $permissionAlert) {
                 Button("ok", role: .cancel) {}
             } message: { Text("notification_denied_body") }
+            .sheet(isPresented: $showingPro) {
+                ProUpgradeView()
+            }
+            .task {
+                await purchases.prepare()
+                if !purchases.isPro, reminderEnabled {
+                    await reschedule(enabled: false)
+                }
+            }
+            .onChange(of: purchases.isPro) { _, isPro in
+                if !isPro, reminderEnabled {
+                    Task { await reschedule(enabled: false) }
+                }
+            }
         }
     }
 
@@ -103,4 +161,3 @@ struct SettingsView: View {
         if enabled && !success { permissionAlert = true }
     }
 }
-

@@ -47,6 +47,8 @@ end
 
 assets = main_group.new_file("Assets.xcassets")
 app.resources_build_phase.add_file_reference(assets)
+storekit_configuration = main_group.new_file("Configuration.storekit")
+tests.resources_build_phase.add_file_reference(storekit_configuration)
 app_privacy = main_group.new_file("PrivacyInfo.xcprivacy")
 app.resources_build_phase.add_file_reference(app_privacy)
 widget_privacy = widget_group.new_file("PrivacyInfo.xcprivacy")
@@ -135,3 +137,14 @@ scheme.add_test_target(ui_tests)
 scheme.save_as(project_path, "TabekiriBiyori", true)
 
 project.save
+
+scheme_path = File.join(project_path, "xcshareddata", "xcschemes", "TabekiriBiyori.xcscheme")
+scheme_xml = File.read(scheme_path)
+storekit_reference = <<~XML.chomp
+      <StoreKitConfigurationFileReference
+         identifier = "../../../TabekiriBiyori/Configuration.storekit">
+      </StoreKitConfigurationFileReference>
+XML
+scheme_xml.sub!(/(<LaunchAction\b[^>]*>)/m, "\\1\n#{storekit_reference}")
+scheme_xml.sub!(/(<TestAction\b[^>]*>)/m, "\\1\n#{storekit_reference}")
+File.write(scheme_path, scheme_xml)

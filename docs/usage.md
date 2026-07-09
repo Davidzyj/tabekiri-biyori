@@ -4,7 +4,9 @@
 
 Tap the plus button, enter the food name, confirm the date, expiry type, and storage place, then save. A name is required.
 
-To scan a printed date, choose “Scan date from a photo”, take a photo or select one, then confirm the suggested date before saving. Recognition runs on the device.
+The free plan supports up to 10 active foods. Existing food always remains available to view, edit, finish, discard, or delete.
+
+Pro users can scan a printed date by choosing “Scan date from a photo”, taking a photo or selecting one, then confirming the suggested date before saving. Recognition runs on the device.
 
 ## Review food
 
@@ -20,7 +22,7 @@ From food details:
 
 ## Reminder
 
-In Settings, turn on the daily reminder and choose a time. Notification permission is requested only when this switch is enabled.
+The daily reminder is a Pro feature. In Settings, turn it on and choose a time. Notification permission is requested only when this switch is enabled.
 
 ## Language
 
@@ -28,9 +30,19 @@ Choose System, Japanese, English, or Simplified Chinese in Settings. An explicit
 
 ## Widget
 
-Add the たべきり日和/Freshly widget from the iPhone widget gallery. It shows up to three active foods nearest their date.
+The Widget is a Pro feature. Add the たべきり日和/Freshly widget from the iPhone widget gallery. It shows up to three active foods nearest their date.
+
+## Lifetime Pro
+
+Open Settings → Pro to see the localized App Store price. Pro is a one-time, non-consumable purchase—not a subscription—and unlocks:
+
+- Unlimited active food
+- On-device date scanning
+- Daily reminders
+- Widget content
+
+Use Restore Purchases on the same page after reinstalling or changing devices. Purchases are processed and verified by Apple; no payment details are stored by the app.
 
 ## Privacy and support
 
 The Settings rows open the project’s privacy and support pages only when tapped. No account, analytics, ads, or tracking SDK is included.
-

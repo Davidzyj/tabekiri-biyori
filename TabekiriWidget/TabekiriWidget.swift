@@ -4,20 +4,30 @@ import SwiftUI
 struct FoodEntry: TimelineEntry {
     let date: Date
     let foods: [WidgetFood]
+    let isPro: Bool
 }
 
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> FoodEntry {
-        FoodEntry(date: .now, foods: [WidgetFood(name: "豆腐", expiryDate: .now)])
+        FoodEntry(date: .now, foods: [WidgetFood(name: "豆腐", expiryDate: .now)], isPro: true)
     }
 
     func getSnapshot(in context: Context, completion: @escaping (FoodEntry) -> Void) {
-        completion(FoodEntry(date: .now, foods: load()))
+        completion(makeEntry())
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<FoodEntry>) -> Void) {
-        let entry = FoodEntry(date: .now, foods: load())
+        let entry = makeEntry()
         completion(Timeline(entries: [entry], policy: .after(Calendar.current.date(byAdding: .hour, value: 1, to: .now)!)))
+    }
+
+    private func makeEntry() -> FoodEntry {
+        let defaults = UserDefaults(suiteName: WidgetSnapshotService.suite)
+        return FoodEntry(
+            date: .now,
+            foods: load(),
+            isPro: defaults?.bool(forKey: "proLifetimeEntitled") ?? false
+        )
     }
 
     private func load() -> [WidgetFood] {
@@ -34,7 +44,15 @@ struct TabekiriWidgetView: View {
         VStack(alignment: .leading, spacing: 8) {
             Label(String(localized: "widget_title", table: "Widget"), systemImage: "leaf")
                 .font(.headline).foregroundStyle(AppTheme.leaf)
-            if entry.foods.isEmpty {
+            if !entry.isPro {
+                Spacer()
+                Image(systemName: "lock.fill")
+                    .foregroundStyle(AppTheme.accent)
+                Text(String(localized: "widget_pro_required", table: "Widget"))
+                    .font(.caption)
+                    .foregroundStyle(AppTheme.secondaryInk)
+                Spacer()
+            } else if entry.foods.isEmpty {
                 Spacer()
                 Text(String(localized: "widget_empty", table: "Widget")).font(.caption).foregroundStyle(AppTheme.secondaryInk)
                 Spacer()

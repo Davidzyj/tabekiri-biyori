@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "68928D180E55929E0566BD07"
+               BlueprintIdentifier = "770F653A8D0232BEB735A8F8"
                BuildableName = "TabekiriBiyori.app"
                BlueprintName = "TabekiriBiyori"
                ReferencedContainer = "container:TabekiriBiyori.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C1611CB60FB93EDF43F4D3D5"
+               BlueprintIdentifier = "067034C0290AEF004BA98204"
                BuildableName = "TabekiriWidget.appex"
                BlueprintName = "TabekiriWidget"
                ReferencedContainer = "container:TabekiriBiyori.xcodeproj">
@@ -41,10 +41,13 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+<StoreKitConfigurationFileReference
+   identifier = "../../../TabekiriBiyori/Configuration.storekit">
+</StoreKitConfigurationFileReference>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "68928D180E55929E0566BD07"
+            BlueprintIdentifier = "770F653A8D0232BEB735A8F8"
             BuildableName = "TabekiriBiyori.app"
             BlueprintName = "TabekiriBiyori"
             ReferencedContainer = "container:TabekiriBiyori.xcodeproj">
@@ -55,7 +58,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF2C915839C10038A6946396"
+               BlueprintIdentifier = "57268BA648214B3B0B150972"
                BuildableName = "TabekiriBiyoriTests.xctest"
                BlueprintName = "TabekiriBiyoriTests"
                ReferencedContainer = "container:TabekiriBiyori.xcodeproj">
@@ -65,7 +68,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A6A56E1F09A8535F001D6A9D"
+               BlueprintIdentifier = "DB7021592F4289AE1C9083BA"
                BuildableName = "TabekiriBiyoriUITests.xctest"
                BlueprintName = "TabekiriBiyoriUITests"
                ReferencedContainer = "container:TabekiriBiyori.xcodeproj">
@@ -83,11 +86,14 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+<StoreKitConfigurationFileReference
+   identifier = "../../../TabekiriBiyori/Configuration.storekit">
+</StoreKitConfigurationFileReference>
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "68928D180E55929E0566BD07"
+            BlueprintIdentifier = "770F653A8D0232BEB735A8F8"
             BuildableName = "TabekiriBiyori.app"
             BlueprintName = "TabekiriBiyori"
             ReferencedContainer = "container:TabekiriBiyori.xcodeproj">
@@ -104,7 +110,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "68928D180E55929E0566BD07"
+            BlueprintIdentifier = "770F653A8D0232BEB735A8F8"
             BuildableName = "TabekiriBiyori.app"
             BlueprintName = "TabekiriBiyori"
             ReferencedContainer = "container:TabekiriBiyori.xcodeproj">

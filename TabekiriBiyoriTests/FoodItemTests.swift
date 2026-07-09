@@ -14,5 +14,22 @@ final class FoodItemTests: XCTestCase {
         XCTAssertEqual(item.storage, .pantry)
         XCTAssertEqual(item.outcome, .active)
     }
-}
 
+    func testFreeTierAllowsFoodBelowLimit() {
+        XCTAssertTrue(FeatureAccess.canAddFood(
+            activeItemCount: FeatureAccess.freeActiveItemLimit - 1,
+            isPro: false
+        ))
+    }
+
+    func testFreeTierStopsNewFoodAtLimitWithoutAffectingExistingData() {
+        XCTAssertFalse(FeatureAccess.canAddFood(
+            activeItemCount: FeatureAccess.freeActiveItemLimit,
+            isPro: false
+        ))
+    }
+
+    func testProAlwaysAllowsNewFood() {
+        XCTAssertTrue(FeatureAccess.canAddFood(activeItemCount: 999, isPro: true))
+    }
+}

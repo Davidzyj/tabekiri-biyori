@@ -7,6 +7,7 @@ struct FoodEditorView: View {
 
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
+    @Environment(PurchaseManager.self) private var purchases
     @State private var name: String
     @State private var expiryDate: Date
     @State private var expiryKind: ExpiryKind
@@ -16,6 +17,7 @@ struct FoodEditorView: View {
     @State private var photoItem: PhotosPickerItem?
     @State private var showingCamera = false
     @State private var showingSourceMenu = false
+    @State private var showingPro = false
     @State private var scanMessageKey: String?
     @State private var isScanning = false
     @FocusState private var focusedField: Field?
@@ -66,6 +68,7 @@ struct FoodEditorView: View {
                     Spacer()
                     Button("keyboard_done") { focusedField = nil }
                         .foregroundStyle(AppTheme.accent)
+                        .accessibilityIdentifier("keyboardDoneButton")
                 }
             }
             .confirmationDialog("scan_source_title", isPresented: $showingSourceMenu) {
@@ -81,6 +84,14 @@ struct FoodEditorView: View {
                     runRecognition(image)
                 }
                 .ignoresSafeArea()
+            }
+            .sheet(isPresented: $showingPro) {
+                ProUpgradeView {
+                    Task {
+                        try? await Task.sleep(for: .milliseconds(250))
+                        showingSourceMenu = true
+                    }
+                }
             }
             .onChange(of: photoItem) { _, newValue in
                 guard let newValue else { return }
@@ -152,12 +163,21 @@ struct FoodEditorView: View {
         VStack(alignment: .leading, spacing: 12) {
             Button {
                 focusedField = nil
-                showingSourceMenu = true
+                if FeatureAccess.canUsePremiumFeatures(isPro: purchases.isPro) {
+                    showingSourceMenu = true
+                } else {
+                    showingPro = true
+                }
             } label: {
                 HStack {
-                    Image(systemName: "viewfinder")
+                    Image(systemName: purchases.isPro ? "viewfinder" : "lock")
                     Text(isScanning ? "scanning" : "scan_date")
                     Spacer()
+                    if !purchases.isPro {
+                        Text("pro_badge")
+                            .font(.caption2.weight(.bold))
+                            .foregroundStyle(AppTheme.accent)
+                    }
                     Image(systemName: "chevron.right")
                 }
                 .foregroundStyle(AppTheme.ink)

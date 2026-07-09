@@ -2,4 +2,4 @@
 "widget_empty" = "Add a date to see food here.";
 "widget_display_name" = "Freshly";
 "widget_description" = "See food nearest its date.";
-
+"widget_pro_required" = "Unlock Pro to see upcoming food.";
