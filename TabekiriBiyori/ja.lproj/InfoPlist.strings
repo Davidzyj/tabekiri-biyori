@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "たべきり日和";
+"NSCameraUsageDescription" = "食品の期限を写真から読み取るためにカメラを使用します。";
+"NSPhotoLibraryUsageDescription" = "食品の期限を写真から読み取るために写真を選びます。";
+

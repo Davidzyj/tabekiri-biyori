@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "食鲜日记";
+"NSCameraUsageDescription" = "使用相机识别食品期限。";
+"NSPhotoLibraryUsageDescription" = "选择照片以识别食品期限。";
+

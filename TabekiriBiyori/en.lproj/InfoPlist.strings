@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "Freshly";
+"NSCameraUsageDescription" = "Use the camera to read a food expiry date.";
+"NSPhotoLibraryUsageDescription" = "Choose a photo to read a food expiry date.";
+
